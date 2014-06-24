@@ -1,0 +1,23 @@
+{
+  "name": "mercury-rxjs-todomvc",
+  "version": "0.1.0",
+  "description": "TodoMVC implementations with Mercury and RxJS",
+  "main": "index.js",
+  "dependencies": {
+    "react": "~0.10.0",
+    "director": "~1.2.3",
+    "rx": "~2.2.17",
+    "virtual-dom": "0.0.12",
+    "vdom-thunk": "~2.0.1",
+    "virtual-hyperscript": "~3.0.0"
+  },
+  "devDependencies": {
+    "browserify": "~4.1.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "browserify src/app.js -o js/bundle.js "
+  },
+  "author": "François de Campredon <francois.de.campredon@gmail.com> (https://github.com/fdecampredon)",
+  "license": "Apache Version 2"
+}
